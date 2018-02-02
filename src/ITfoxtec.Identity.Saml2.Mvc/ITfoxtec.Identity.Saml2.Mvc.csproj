@@ -97,9 +97,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ITfoxtec.Identity.Saml2\ITfoxtec.Identity.Saml2.csproj">
+    <ProjectReference Include="..\ITfoxtec.Identity.Saml2\ITfoxtec.Identity.Saml20.csproj">
       <Project>{bb8fe53f-b198-4dcf-b51c-b11cc0215ae7}</Project>
-      <Name>ITfoxtec.Identity.Saml2</Name>
+      <Name>ITfoxtec.Identity.Saml20</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

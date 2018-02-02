@@ -201,9 +201,9 @@
       <Project>{da5d0686-f694-4667-8cf9-ccf1b9bb1626}</Project>
       <Name>ITfoxtec.Identity.Saml2.Mvc</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\ITfoxtec.Identity.Saml2\ITfoxtec.Identity.Saml2.csproj">
+    <ProjectReference Include="..\..\src\ITfoxtec.Identity.Saml2\ITfoxtec.Identity.Saml20.csproj">
       <Project>{bb8fe53f-b198-4dcf-b51c-b11cc0215ae7}</Project>
-      <Name>ITfoxtec.Identity.Saml2</Name>
+      <Name>ITfoxtec.Identity.Saml20</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

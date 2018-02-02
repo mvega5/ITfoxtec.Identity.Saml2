@@ -1,7 +1,7 @@
 {
   "version": 2,
   "exports": {
-    "ITfoxtec.Identity.Saml2/1.0.0": {
+    "ITfoxtec.Identity.Saml20/1.0.0": {
       "type": "project",
       "framework": ".NETFramework,Version=v4.6.2",
       "compile": {

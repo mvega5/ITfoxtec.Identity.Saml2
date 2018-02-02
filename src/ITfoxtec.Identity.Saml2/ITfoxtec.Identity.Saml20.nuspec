@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ITfoxtec.Identity.Saml20</id>
+    <version>2.0.0.0</version>
+    <title>ITfoxtec Identity SAML 2.0</title>
+    <authors>ITfoxtec</authors>
+    <owners>ITfoxtec</owners>
+    <licenseUrl>http://www.itfoxtec.com/License/3clauseBSD.htm</licenseUrl>
+    <projectUrl>http://www.itfoxtec.com/IdentitySaml2</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SAML 2.0 Framework</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>SALM2</tags>
+  </metadata>
+  <files>
+    <file src="bin\Debug\ITfoxtec.Identity.Saml2.dll" target="lib\net462\ITfoxtec.Identity.Saml2.dll" />
+</files>
+</package>
