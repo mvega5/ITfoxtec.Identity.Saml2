@@ -36,6 +36,9 @@ namespace ITfoxtec.Identity.Saml2.Cryptography
 
         public new bool CheckSignature()
         {
+            if (CheckSignature(Saml2Signer.Certificate, true))
+                return true;
+
             SignedInfo.CanonicalizationMethod = XmlDsigExcC14NTransformUrl;
             SignedInfo.SignatureMethod = Saml2Signer.SignatureAlgorithm;
             return CheckSignature(Saml2Signer.Certificate, true);
